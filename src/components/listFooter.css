@@ -1,0 +1,52 @@
+.fcontainer {
+    width: 585px;
+    margin-left: 15px;
+    margin-right: 20px;
+    border: 1px solid burlywood;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: inline-block}
+
+.fleft {
+    float:left;
+    width:100px;
+    font-size: 12px;
+    margin-top: 13px;
+    color:gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.button{
+    border:none;
+    color:gray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    border: 1px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    cursor: pointer;
+}
+
+.active{
+    border-color:burlywood;
+}
+
+.clearbutton{
+    float: right;
+    border:none;
+    color:gray;
+    margin-top: -33px;
+    margin-left:2px;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
